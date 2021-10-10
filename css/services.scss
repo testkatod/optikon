@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.home_screen {
+
+    .container {
+        width: 100%;
+    }
+
+   // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/BRD_0432.jpg);
+    background: url(../img/AdobeStock_91462031-scaled.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+    .wrapper {
+        display: flex;
+        place-content: space-between;
+    }
+    .left-col {
+
+        .logo {
+            font-weight: 600;
+            font-size: 1.6em;
+            margin: 0;
+            padding-top: 0.25em;
+            padding-left: 2em;
+            color: white;
+        }
+    }
+    .right-col {
+        right: 0;
+     //   background-color: rgba(163, 162, 162, 0.5);
+        backdrop-filter: blur(10px);
+        padding:0 1em;
+        height: 80vh;
+        z-index: 0;
+       
+
+        .navbar {
+
+            .primary_nav {
+
+                list-style-type: none;
+                padding: 0 2em;
+                display: flex;
+                place-content: space-between;
+
+                li {
+
+                    
+                    a {
+                        text-decoration: none;
+                        padding: 0.5em 0;
+                        font-size: 0.8em;
+                        color: rgb(255, 255, 255);
+                    }
+                }
+            }
+        }
+
+        .text_wrapper {
+            padding: 2em 4em;
+            width: 35vw;
+        }
+        
+        h1 {
+            color: white;
+            letter-spacing: 1.3px;
+            font-weight: 800;
+            font-size: 2em;
+            margin: 4em 0;
+        }
+
+        p {
+            color: white;
+            font-size: 1em;
+            margin-bottom: 2em;
+        }
+
+        .btn {
+            text-decoration: none;
+            color: white;
+            border: 1px solid white;
+           // border-radius: 2em;
+            padding: 0.5em 2em;
+            background-color: rgb(206, 107, 14);
+            margin: 2em 0;
+            border: none;
+            box-shadow: 2px 3px 15px gray;
+        }
+    }
+
+}
+
+.sub-menu {
+    display: flex;
+    place-content: end;
+    box-shadow: 2px 2px 5px gray;
+    background-color: rgb(250, 248, 248);
+    .wrapper {
+        z-index: 999;
+        display: flex;
+        place-content: end;
+        margin-right: -5em;
+       // box-shadow: 2px 2px 5px gray;
+
+        .block {
+            padding: 2em 3em; 
+           // box-shadow: 2px 2px 5px gray;
+            width: 250px;
+            margin: 0 0;
+            background-color: rgb(250, 248, 248);
+
+            h4 {
+                font-weight: 600;
+                font-size: 1.2em;
+                margin: 0;
+                color: black;
+            }
+        }
+    }
+}
+
+.profile {
+    .head-block {
+        .wrapper {
+            display: flex;
+            padding: 2em 0;
+            border-bottom: 2px solid gray;
+
+            h2 {
+                font-weight: 600;
+                font-size: 2em;
+                margin-bottom: 0;
+            }
+
+            .number {
+                padding-right: 1em;
+            }
+
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    .description-block {
+        .wrapper {
+            display: flex;
+            place-content: space-between;
+            padding: 2em 0;
+
+            .left-col {
+                width: 500px;
+
+                .list {
+                    //background-color: rgb(240, 234, 234);
+                    padding: 1em;
+                    box-shadow: 2px 2px 5px gray;
+                    background: rgb(244,244,244);
+                    background: -moz-linear-gradient(125deg, rgba(244,244,244,1) 0%, rgba(221,221,221,1) 100%);
+                    background: -webkit-linear-gradient(125deg, rgba(244,244,244,1) 0%, rgba(221,221,221,1) 100%);
+                    background: linear-gradient(125deg, rgba(244,244,244,1) 0%, rgba(221,221,221,1) 100%);
+                    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4f4f4",endColorstr="#dddddd",GradientType=1);
+                }
+
+                p {
+                    font-size: 1.5em;
+                }
+
+                .tr {
+                    display: flex;
+                    padding: 1em 0;
+                    
+                    p {
+                        width: 200px;
+                        font-size: 1em;
+                        margin: 0;
+                    }
+
+                    h4 {
+                        width: 25px;
+                        margin: 0;
+                        font-weight: 400;
+                        color:rgb(206, 107, 14);
+                    }
+                }
+            }
+
+            .right-col {
+                width: 50%;
+                background: url(../img/BRD_0313.jpg);
+                background-size: cover;
+                box-shadow: 2px 2px 5px gray;
+            }
+        }
+    }
+}

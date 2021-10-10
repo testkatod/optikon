@@ -1,0 +1,359 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap");
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.home_screen {
+  background: url(../img/AdobeStock_91462031-scaled.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.home_screen .container {
+  width: 100%;
+}
+
+.home_screen .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.home_screen .left-col .logo {
+  font-weight: 600;
+  font-size: 1.6em;
+  margin: 0;
+  padding-top: 0.25em;
+  padding-left: 2em;
+  color: white;
+}
+
+.home_screen .right-col {
+  right: 0;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  height: 100vh;
+  padding: 0 1em;
+}
+
+.home_screen .right-col .navbar .primary_nav {
+  list-style-type: none;
+  padding: 0 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.home_screen .right-col .navbar .primary_nav li a {
+  text-decoration: none;
+  padding: 0.5em 0;
+  font-size: 0.8em;
+  color: white;
+}
+
+.home_screen .right-col .text_wrapper {
+  padding: 2em 4em;
+  width: 35vw;
+}
+
+.home_screen .right-col h1 {
+  color: white;
+  letter-spacing: 1.3px;
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.home_screen .right-col p {
+  color: white;
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+
+.home_screen .right-col .btn {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5em 2em;
+  background-color: #ce6b0e;
+  margin: 2em 0;
+  border: none;
+  -webkit-box-shadow: 2px 3px 15px gray;
+          box-shadow: 2px 3px 15px gray;
+}
+
+.profile .profile-header {
+  margin: 3em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+  border-bottom: 2px solid gray;
+  height: 150px;
+}
+
+.profile .profile-header .text-block {
+  margin: auto 0;
+}
+
+.profile .profile-header p {
+  font-size: 0.8em;
+}
+
+.profile .profile-header img {
+  width: 40px;
+  height: 40px;
+  margin: auto 0;
+}
+
+.profile .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.profile .left-col {
+  position: relative;
+  width: 30%;
+  -webkit-box-shadow: 2px 3px 15px gray;
+          box-shadow: 2px 3px 15px gray;
+}
+
+.profile .left-col .number {
+  font-size: 3em;
+  font-weight: 600;
+  padding: 0.2em 0.2em;
+  position: absolute;
+  margin: 0;
+  color: #ce6b0e;
+  display: inline-block;
+  border: 4px solid #ce6b0e;
+}
+
+.profile .left-col .block {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2))), url(../img/BRD_0313.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/BRD_0313.jpg);
+  background-size: cover;
+  height: 500px;
+  vertical-align: bottom;
+}
+
+.profile .left-col .block .text-block {
+  position: absolute;
+  float: 0;
+  bottom: 0;
+  padding: 1em 2em;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(131, 125, 125, 0.5)), to(rgba(131, 125, 125, 0.5)));
+  background: linear-gradient(rgba(131, 125, 125, 0.5), rgba(131, 125, 125, 0.5));
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.profile .left-col .block .text-block h3 {
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.profile .left-col .block .text-block p {
+  color: white;
+  font-size: 0.8em;
+  height: 5em;
+}
+
+.profile .mid-col .block {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2))), url(../img/Фото1_20.JPG);
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/Фото1_20.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
+.profile .right-col .block {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2))), url(../img/2018-986-AaronMachineShop-GeneralmachininginCalgaryAlberta.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/2018-986-AaronMachineShop-GeneralmachininginCalgaryAlberta.jpg);
+  background-position: left;
+  background-size: cover;
+}
+
+.features {
+  background: #eeeeee;
+  background: -webkit-gradient(linear, left bottom, left top, from(#eeeeee), to(white));
+  background: linear-gradient(0deg, #eeeeee 0%, white 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeeeee",endColorstr="#ffffff",GradientType=1);
+  padding-bottom: 94px;
+}
+
+.features .features-header {
+  margin: 3em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+  border-bottom: 2px solid gray;
+  height: 150px;
+}
+
+.features .features-header .text-block {
+  margin: auto 0;
+}
+
+.features .features-header p {
+  font-size: 0.8em;
+}
+
+.features .features-header img {
+  width: 40px;
+  height: 40px;
+  margin: auto 0;
+}
+
+.features .block {
+  width: 100%;
+  background-color: white;
+  -webkit-box-shadow: 2px 3px 15px gray;
+          box-shadow: 2px 3px 15px gray;
+}
+
+.features .block .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.features .block .wrapper .left-col {
+  width: 40%;
+  background: url(../img/Фото1_8.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
+.features .block .wrapper .items-block {
+  width: 60%;
+}
+
+.features .block .wrapper .items-block table .img-block {
+  display: inline-block;
+}
+
+.features .block .wrapper .items-block table .icon {
+  width: 80px;
+  display: inline-block;
+}
+
+.features .block .wrapper .items-block table h4 {
+  font-weight: 400;
+  text-align: center;
+}
+
+.features .block .wrapper .items-block table td {
+  padding: 2em 1em;
+  width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-us {
+  background: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(transparent)), url(../img/Фото1_19.JPG);
+  background: linear-gradient(#eeeeee, transparent), url(../img/Фото1_19.JPG);
+  background-size: cover;
+  background-position: center;
+  vertical-align: middle;
+  position: relative;
+}
+
+.contact-us .contact-block {
+  display: inline-block;
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+.contact-us h2 {
+  margin: 0;
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.contact-us p {
+  margin-bottom: 3em;
+  color: white;
+}
+
+.contact-us .btn {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5em 2em;
+  background-color: #ce6b0e;
+  margin: 2em 0;
+  border: none;
+  -webkit-box-shadow: 2px 3px 15px gray;
+          box-shadow: 2px 3px 15px gray;
+}
+
+.footer {
+  background: #1f1e1e;
+}
+
+.footer h4, .footer p {
+  margin: 0;
+  color: white;
+}
+
+.footer h4 {
+  font-weight: 600;
+  font-size: 1em;
+  display: block;
+}
+
+.footer .logo {
+  border: none;
+  font-size: 2em;
+}
+
+.footer p, .footer a {
+  padding: 1em 0;
+  font-size: 0.8em;
+}
+
+.footer .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+  padding: 3em 0;
+}
+
+.footer .wrapper .mid-col, .footer .wrapper .right-col {
+  width: 300px;
+}
+
+.footer .wrapper .left-col {
+  width: 300px;
+}
+
+.footer .wrapper .mid-col ul {
+  padding: 0;
+}
+
+.footer .wrapper .mid-col li {
+  list-style-type: none;
+  padding-bottom: 0.5em;
+}
+
+.footer .wrapper .mid-col a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

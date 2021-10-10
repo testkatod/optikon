@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.home_screen {
+
+    .container {
+        width: 100%;
+    }
+
+   // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/BRD_0432.jpg);
+    background: url(../img/AdobeStock_91462031-scaled.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    .wrapper {
+        display: flex;
+        place-content: space-between;
+    }
+    .left-col {
+
+        .logo {
+            font-weight: 600;
+            font-size: 1.6em;
+            margin: 0;
+            padding-top: 0.25em;
+            padding-left: 2em;
+            color: white;
+        }
+    }
+    .right-col {
+        right: 0;
+     //   background-color: rgba(163, 162, 162, 0.5);
+        backdrop-filter: blur(10px);
+        height: 100vh;
+        padding:0 1em;
+       
+
+        .navbar {
+
+            .primary_nav {
+
+                list-style-type: none;
+                padding: 0 2em;
+                display: flex;
+                place-content: space-between;
+
+                li {
+
+                    
+                    a {
+                        text-decoration: none;
+                        padding: 0.5em 0;
+                        font-size: 0.8em;
+                        color: rgb(255, 255, 255);
+                    }
+                }
+            }
+        }
+
+        .text_wrapper {
+            padding: 2em 4em;
+            width: 35vw;
+        }
+        
+        h1 {
+            color: white;
+            letter-spacing: 1.3px;
+            font-weight: 600;
+            font-size: 2em;
+        }
+
+        p {
+            color: white;
+            font-size: 1em;
+            margin-bottom: 2em;
+        }
+
+        .btn {
+            text-decoration: none;
+            color: white;
+            border: 1px solid white;
+           // border-radius: 2em;
+            padding: 0.5em 2em;
+            background-color: rgb(206, 107, 14);
+            margin: 2em 0;
+            border: none;
+            box-shadow: 2px 3px 15px gray;
+        }
+    }
+
+}
+
+.profile {
+
+
+    .profile-header {
+
+        .text-block {
+            margin: auto 0;
+        }
+
+        margin: 3em 0;
+        display: flex;
+        place-content: space-between;
+        border-bottom: 2px solid gray;
+        height: 150px;
+
+        p {
+        font-size: 0.8em;
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+            margin: auto 0;
+        }
+
+    }
+    
+    .wrapper {
+        display: flex;
+        place-content: space-between;
+    }
+
+
+    .left-col {
+
+        position: relative;
+       // padding: 2em 2em;
+        width: 30%;
+        box-shadow: 2px 3px 15px gray;
+
+        .number {
+            font-size: 3em;
+            font-weight: 600;
+            padding: 0.2em 0.2em;
+            position: absolute;
+            margin: 0;
+            color: rgb(206, 107, 14);
+            display: inline-block;
+            border: 4px solid rgb(206, 107, 14);
+            
+        }
+
+        .block {
+
+            background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/BRD_0313.jpg);
+            background-size: cover;
+            height: 500px;
+           // display:table-cell;
+            vertical-align:bottom;
+
+            .text-block {
+                
+                position: absolute;
+                float: 0;
+                bottom: 0;
+                padding: 1em 2em;
+                background: linear-gradient(rgba(131, 125, 125, 0.5), rgba(131, 125, 125, 0.5));
+                backdrop-filter: blur(10px);
+               // height: 250px;
+
+                h3 {
+                    color: white;
+                    font-size: 2em;
+                    font-weight: 600;
+                }
+
+                p {
+                    color: white;
+                    font-size: 0.8em;
+                    height: 5em;
+                }
+            }
+        }
+
+    }
+
+    .mid-col {
+        .block {
+            background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/Фото1_20.JPG);
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+    .right-col {
+        .block {
+            background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/2018-986-AaronMachineShop-GeneralmachininginCalgaryAlberta.jpg);
+            background-position: left;
+            background-size: cover;
+        }
+    }
+}
+
+.features {
+
+   // background-color: #f5f5f5;
+
+    background: rgb(238,238,238);
+    background: -moz-linear-gradient(0deg, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeeeee",endColorstr="#ffffff",GradientType=1);
+    padding-bottom: 94px;
+    .features-header {
+        .text-block {
+            margin: auto 0;
+        }
+
+        margin: 3em 0;
+        display: flex;
+        place-content: space-between;
+        border-bottom: 2px solid gray;
+        height: 150px;
+
+        p {
+        font-size: 0.8em;
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+            margin: auto 0;
+        }
+
+    }
+
+    .block {
+        width: 100%;
+        background-color: white;
+        box-shadow: 2px 3px 15px gray;
+        
+        .wrapper {
+            display: flex;
+
+            .left-col {
+                width: 40%;
+                background: url(../img/Фото1_8.JPG);
+                background-size: cover;
+                background-position: center;
+            }
+
+            .items-block {
+                width: 60%;
+
+                table {
+                    
+                    .img-block {
+                        display:inline-block;
+                    }
+
+                    .icon {
+                        width: 80px;
+                        //margin: 0 8em;;
+                        display: inline-block;
+                    }
+
+                    h4 {
+                        font-weight: 400;
+                        text-align: center;
+                        
+                    }
+
+                    td {
+                        padding: 2em 1em;
+                        width: 50%;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contact-us {
+    background: linear-gradient(rgba(238,238,238,1), transparent), url(../img/Фото1_19.JPG);
+    background-size: cover;
+    background-position: center;
+   // height: 300px;
+    vertical-align: middle;
+    position: relative;
+
+    .contact-block {
+        display: inline-block;
+        padding-top: 7em;
+        padding-bottom: 7em;
+    } 
+
+    h2 {
+        margin: 0;
+        color: white;
+        font-size: 2em;
+        font-weight: 600;
+    }
+
+    p {
+        margin-bottom: 3em;
+        color: white;
+    }
+
+    .btn {
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+       // border-radius: 2em;
+        padding: 0.5em 2em;
+        background-color: rgb(206, 107, 14);
+        margin: 2em 0;
+        border: none;
+        box-shadow: 2px 3px 15px gray;
+    }
+
+}
+
+.footer {
+    background: rgb(31, 30, 30);
+    
+    h4, p {
+        margin: 0;
+        color: white;
+    }
+
+    h4 {
+        font-weight: 600;
+        font-size: 1em;
+        display: block;
+        //border-bottom: 2px solid rgb(206, 107, 14);
+    }
+
+    .logo {
+        border: none;
+        font-size: 2em;
+    }
+    
+    p, a {
+        padding: 1em 0;
+        font-size: 0.8em;
+    }
+
+    .wrapper {
+
+        display: flex;
+        place-content: space-between;
+        padding: 3em 0;
+       
+
+        .mid-col, .right-col {
+            width: 300px;
+        } 
+
+        .left-col {
+            width: 300px;
+        }
+
+        .mid-col {
+
+            ul {
+                padding: 0;
+            }
+            li {
+                list-style-type: none;
+                padding-bottom: 0.5em;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
