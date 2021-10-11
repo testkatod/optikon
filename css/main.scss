@@ -161,7 +161,6 @@ h1, h2, h3, h4, h5, p {
             background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/BRD_0313.jpg);
             background-size: cover;
             height: 500px;
-           // display:table-cell;
             vertical-align:bottom;
 
             .text-block {
@@ -172,6 +171,8 @@ h1, h2, h3, h4, h5, p {
                 padding: 1em 2em;
                 background: linear-gradient(rgba(131, 125, 125, 0.5), rgba(131, 125, 125, 0.5));
                 backdrop-filter: blur(10px);
+                box-sizing: border-box;
+                width: 100%;
                // height: 250px;
 
                 h3 {
@@ -280,6 +281,7 @@ h1, h2, h3, h4, h5, p {
                         padding: 2em 1em;
                         width: 50%;
                         align-items: center;
+                        box-sizing: border-box;
                     }
                 }
             }
@@ -384,3 +386,170 @@ h1, h2, h3, h4, h5, p {
         }
     }
 }
+
+@media screen and (max-width: 1250px) {
+    .container {
+        width: 80%;
+    }
+
+    .profile .left-col .block .text-block h3 {
+        font-size: 1em;
+    }
+
+    .profile .left-col .block .text-block {
+        height: 45%;
+    }
+}
+
+@media screen and (max-width: 1135px) {
+    .home_screen .right-col h1 {
+        font-size: 1em;
+    }
+
+    .home_screen .right-col p {
+        font-size: 0.7em;
+    }
+
+    .btn {
+        font-size: 0.7em;
+    }
+
+    .contact-us h2 {
+        font-size: 1em;
+    }
+    .contact-us p {
+        font-size: 0.7em;
+    }
+
+    h2 {
+        font-size: 1em; 
+    }
+
+    .home_screen .right-col {
+        height: 100%;
+    }
+
+    .home_screen {
+        height: auto;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .profile .left-col .number {
+        font-size: 2em;
+    }
+
+    .contact-us .contact-block {
+        padding: 2em;
+    }
+
+    .contact-us {
+        height: 100%;
+    }
+
+    h4 {
+        font-size: 1em;
+    }
+
+    .profile .wrapper {
+        height: 500px;
+    }
+
+    .profile .right-col .block, .profile .mid-col .block, .profile .left-col .block {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1005px) {
+    .features .block .wrapper .items-block table h4 {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .profile .wrapper {
+        display: flow-root;
+        height: 100%;
+    }
+
+    .profile .left-col .number {
+      position: static;
+      border: none;
+    }
+
+    .profile .left-col .block .text-block {
+        position: static;
+    }
+
+    .profile .left-col {
+        position: static;
+    }
+
+    .profile .left-col {
+        width: 100%;
+        background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/BRD_0313.jpg);
+        background-size: cover;
+    }
+
+    .profile .mid-col {
+        width: 100%;
+        background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/Фото1_20.JPG);
+        background-size: cover;
+    }
+
+    .profile .right-col {
+        width: 100%;
+        background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/2018-986-AaronMachineShop-GeneralmachininginCalgaryAlberta.jpg);
+        background-size: cover;
+    }
+
+    .profile .left-col {
+        margin: 1em 0;
+    }
+
+    .profile .left-col .block {
+        background: none;
+    }
+
+    .profile .profile-header {
+        margin: 1em 0;
+    }
+
+    .features .features-header {
+        margin: 1em 0;
+    }
+
+    .features .block .wrapper .items-block table td {
+        padding: 1em;
+        
+    }
+
+    .features .block .wrapper .items-block table .icon {
+        width: 50px;
+    }
+
+    .profile .left-col .block .text-block p {
+        height: 100%;
+    }
+
+    .profile .profile-header, .features .features-header {
+        height: 100%;
+    }
+
+    .profile .left-col {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .footer .wrapper .left-col, .footer .wrapper .left-col, .footer .wrapper .left-col {
+        padding: 0 2em;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    
+}
+
