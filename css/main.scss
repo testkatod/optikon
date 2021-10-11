@@ -10,6 +10,10 @@ body {
     margin: 0 auto;
 }
 
+h1, h2, h3, h4, h5, p {
+    cursor: default;
+}
+
 .home_screen {
 
     .container {
@@ -284,7 +288,7 @@ body {
 }
 
 .contact-us {
-    background: linear-gradient(rgba(238,238,238,1), transparent), url(../img/Фото1_19.JPG);
+    background: linear-gradient(rgba(238,238,238,1), 15%, transparent), url(../img/Фото1_19.JPG);
     background-size: cover;
     background-position: center;
    // height: 300px;

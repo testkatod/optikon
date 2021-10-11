@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap");
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, p {
+  cursor: default;
+}
+
+.home_screen {
+  background: url(../img/AdobeStock_91462031-scaled.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home_screen .container {
+  width: 100%;
+}
+
+.home_screen .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.home_screen .left-col .logo {
+  font-weight: 600;
+  font-size: 1.6em;
+  margin: 0;
+  padding-top: 0.25em;
+  padding-left: 2em;
+  color: white;
+}
+
+.home_screen .right-col {
+  right: 0;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 0 1em;
+  height: 80vh;
+  z-index: 0;
+}
+
+.home_screen .right-col .navbar .primary_nav {
+  list-style-type: none;
+  padding: 0 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.home_screen .right-col .navbar .primary_nav li a {
+  text-decoration: none;
+  padding: 0.5em 0;
+  font-size: 0.8em;
+  color: white;
+}
+
+.home_screen .right-col .text_wrapper {
+  padding: 2em 4em;
+  width: 35vw;
+}
+
+.home_screen .right-col h1 {
+  color: white;
+  letter-spacing: 1.3px;
+  font-weight: 600;
+  font-size: 2em;
+  margin: 4em 0;
+}
+
+.home_screen .right-col p {
+  color: white;
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+
+.home_screen .right-col .btn {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5em 2em;
+  background-color: #ce6b0e;
+  margin: 2em 0;
+  border: none;
+  -webkit-box-shadow: 2px 3px 15px gray;
+          box-shadow: 2px 3px 15px gray;
+}
+
+.about-us .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+  padding: 4em 0;
+}
+
+.about-us .wrapper .left-col {
+  width: 40%;
+}
+
+.about-us .wrapper .left-col h4 {
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.about-us .wrapper .left-col p {
+  font-size: 1em;
+  text-align: justify;
+}
+
+.about-us .wrapper .right-col {
+  width: 50%;
+  background: url(../img/DSC_0154.JPG);
+  background-size: cover;
+  -webkit-box-shadow: 2px 2px 5px gray;
+          box-shadow: 2px 2px 5px gray;
+}
+
+.sectors {
+  background: #ebebeb;
+  background: linear-gradient(3deg, #ebebeb 0%, white 100%);
+}
+
+.sectors .head-block .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2em 0;
+  border-bottom: 2px solid gray;
+}
+
+.sectors .head-block .wrapper h2 {
+  font-weight: 600;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.sectors .head-block .wrapper .number {
+  padding-right: 1em;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.sectors .head-block .wrapper p {
+  margin: 0;
+}
+
+.sectors .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+  padding: 2em 0;
+}
+
+.sectors .wrapper .block {
+  width: 150px;
+  text-align: center;
+  padding: 1em 1.5em;
+}
+
+.sectors .wrapper .block img {
+  margin-bottom: 1em;
+}
+
+.sectors .wrapper .block h5 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.footer {
+  background: #1f1e1e;
+}
+
+.footer h4, .footer p {
+  margin: 0;
+  color: white;
+}
+
+.footer h4 {
+  font-weight: 600;
+  font-size: 1em;
+  display: block;
+}
+
+.footer .logo {
+  border: none;
+  font-size: 2em;
+}
+
+.footer p, .footer a {
+  padding: 1em 0;
+  font-size: 0.8em;
+}
+
+.footer .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+  padding: 3em 0;
+}
+
+.footer .wrapper .mid-col, .footer .wrapper .right-col {
+  width: 300px;
+}
+
+.footer .wrapper .left-col {
+  width: 300px;
+}
+
+.footer .wrapper .mid-col ul {
+  padding: 0;
+}
+
+.footer .wrapper .mid-col li {
+  list-style-type: none;
+  padding-bottom: 0.5em;
+}
+
+.footer .wrapper .mid-col a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=possibilities.css.map */

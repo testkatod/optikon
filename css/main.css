@@ -10,6 +10,10 @@ body {
   margin: 0 auto;
 }
 
+h1, h2, h3, h4, h5, p {
+  cursor: default;
+}
+
 .home_screen {
   background: url(../img/AdobeStock_91462031-scaled.jpeg);
   background-repeat: no-repeat;
@@ -264,8 +268,8 @@ body {
 }
 
 .contact-us {
-  background: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(transparent)), url(../img/Фото1_19.JPG);
-  background: linear-gradient(#eeeeee, transparent), url(../img/Фото1_19.JPG);
+  background: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), color-stop(15%), to(transparent)), url(../img/Фото1_19.JPG);
+  background: linear-gradient(#eeeeee, 15%, transparent), url(../img/Фото1_19.JPG);
   background-size: cover;
   background-position: center;
   vertical-align: middle;
